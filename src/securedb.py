@@ -1,6 +1,6 @@
 import os
 from cryptography.fernet import Fernet
-
+VERSION = "2.0.3"
 
 class Error(Exception):
     pass
